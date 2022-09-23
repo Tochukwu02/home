@@ -1,11 +1,12 @@
 import logo from './logo.svg';
 import './App.css';
-import Button from './components/Button/Button';
 
-function App() {
+import Navbar from './components/Navbar/Navbar';
+
+const App =() => {
   return (
     <>
-      <Button text={'Button Sha'} color />
+    <Navbar />
     </>
   );
 }
